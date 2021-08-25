@@ -16,3 +16,13 @@ SplitList is designed to allow users to create, collobarate and share lists. Use
 
 Lists are perfect for to-dos, groceries, or packing lists. 
 
+
+
+## To Add
+* Front End
+    * React.JS
+
+## To Fix
+* Users have a phone number. Number is too large to be an integer. need to convert to string
+* when creating a list, set to active immediately
+* when creating an item set completed to false
