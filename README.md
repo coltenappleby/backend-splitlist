@@ -6,8 +6,8 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
- * Ruby 2.6.1p33
- * PostgreSQL
+..* Ruby 2.6.1p33
+..* PostgreSQL
 
 
 ## About 
