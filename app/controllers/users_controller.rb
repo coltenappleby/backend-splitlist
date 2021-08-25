@@ -9,7 +9,7 @@ class UsersController < ApplicationController
         if user.valid?
             render json: user
         else
-            render json: user.errors.fulle_messages            
+            render json: user.errors.full_messages            
         end
     end
 
