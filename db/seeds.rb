@@ -27,21 +27,21 @@ Userlist.create(user_id: User.first.id, list_id: List.find_by(name: "Star Wars")
     Item.create(
         name: Faker::Movie.title, 
         notes: Faker::Lorem.sentence(word_count: 3), 
-        user_id: User.first.id,
+        user_id: User.second.id,
         list_id: List.find_by(name: "Movies").id,
         location: Faker::Address.city
     )
     Item.create(
         name: Faker::Movies::StarWars.character, 
         notes: Faker::Movies::StarWars.quote, 
-        user_id: User.second.id,
+        user_id: User.first.id,
         list_id: List.find_by(name: "Star Wars").id,
         location: Faker::Address.city
     )
     Item.create(
         name: Faker::TvShows::TwinPeaks.character, 
         notes: Faker::TvShows::TwinPeaks.quote, 
-        user_id: User.second.id,
+        user_id: User.first.id,
         list_id: List.find_by(name: "Twin Peaks").id,
         location: Faker::TvShows::TwinPeaks.location
     )
