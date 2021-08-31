@@ -3,5 +3,5 @@ class ListSerializer < ActiveModel::Serializer
 
   has_many :items
 
-  belongs_to :user
+  # has_many :userlists
 end
