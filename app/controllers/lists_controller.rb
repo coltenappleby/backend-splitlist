@@ -6,10 +6,15 @@ class ListsController < ApplicationController
     end
 
 
-    # def show
-    #     list = List.params[:id]
-    #     render json: items
-    # end
+    def show
+        list = List.find(params[:id])
+
+        if list
+            render json: list
+        else
+            render json: {error: "Cannot find this list"}
+        end
+    end
 
 
 end
