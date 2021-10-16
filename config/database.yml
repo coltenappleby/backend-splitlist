@@ -24,6 +24,11 @@ default: &default
 development:
   <<: *default
   database: backend_splitlist_development
+  # host: 127.0.0.1
+  # port: 5433
+  # username: postgres
+  # password: 
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
